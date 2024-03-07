@@ -1,0 +1,12 @@
+//VARIABLES SIEMPRE PRIMERO!!!
+
+//UTILIDADES
+@import "./utilities/variables";
+@import "./utilities/reset";
+@import "./utilities/extend";
+
+//SECCIONES
+@import "./sections/header";
+@import "./sections/contenido";
+@import "./sections/footer";
+

@@ -1,0 +1,23 @@
+.main {
+    h1 {
+        //para que el footer no vuele
+        min-height: 72vh;
+        text-align: center;
+        font-family: $fuente-titulos;
+        padding: 15px;
+    }
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+article {
+    border: solid black 2px;
+    max-width: 30vw;
+    @extend .flex-center
+}
