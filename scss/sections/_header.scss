@@ -1,6 +1,10 @@
 .header {
     box-shadow: 0px 2px 4px $grisclaro;
 
+    a img {
+        width: 100px;
+    }
+
     ul {
         display: flex;
         list-style: none;
@@ -26,33 +30,3 @@
     }
 }
 
-.hero {
-    position: relative;
-    background-image: url(../../resourses/hero.gif);
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    text-align: center;
-
-    h1 {
-        color: rgba(46, 46, 46, 0.995);
-        font-size: 40px;
-        font-style: italic;
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin: 0;
-    }
-
-    h2 {
-        color: rgb(98, 98, 98);
-        font-size: 30px;
-        font-style: italic;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin: 0;
-    }
-}
