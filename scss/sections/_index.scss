@@ -31,6 +31,7 @@
 
     h2 {
         color: rgb(0, 0, 0);
+        font-family: $fuente-titulos;
         font-size: 30px;
         font-style: italic;
     }
@@ -42,10 +43,13 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 20px;
+    
 }
 
-article {
+.article-index {
+    background-color: rgba(221, 243, 187, 0.771);
     border: solid black 2px;
     max-width: 30vw;
-    @extend .flex-center
+    @extend .flex-center;
+    box-shadow: 0px 4px 8px $grisclaro;
 }

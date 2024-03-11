@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif; }
 
-.flex-center, article {
+.flex-center, .article-index, .main-sobre-ticomar {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,15 +14,31 @@
   text-align: center;
   padding: 10px; }
 
+.flex-center-row, .div-sobre-ticomar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px; }
+
 .header {
   box-shadow: 0px 2px 4px #cbcbcb; }
+  .header .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .header .navbar-collapse {
+    flex-basis: auto !important;
+    flex-grow: 0 !important; }
   .header a img {
-    width: 100px; }
+    width: 200px; }
   .header ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-evenly; }
+    justify-content: center;
+    align-items: center; }
     .header ul a {
       color: #343434;
       background-color: #cbcbcb;
@@ -34,6 +51,11 @@
       font-family: "Roboto Condensed", sans-serif; }
       .header ul a:hover {
         background-color: #8e8e8e; }
+
+.footer {
+  background-image: linear-gradient(#cbcbcb, #8e8e8e); }
+  .footer ul {
+    padding: 10px; }
 
 .main {
   display: flex;
@@ -58,11 +80,12 @@
     color: rgba(0, 0, 0, 0.995);
     font-size: 40px;
     font-style: italic;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Anta", sans-serif;
     padding: 15px;
     margin: 0; }
   .hero h2 {
     color: black;
+    font-family: "Anta", sans-serif;
     font-size: 30px;
     font-style: italic; }
 
@@ -73,11 +96,33 @@
   flex-wrap: wrap;
   margin: 20px; }
 
-article {
+.article-index {
+  background-color: rgba(221, 243, 187, 0.771);
   border: solid black 2px;
-  max-width: 30vw; }
+  max-width: 30vw;
+  box-shadow: 0px 4px 8px #cbcbcb; }
 
-.footer {
-  background-image: linear-gradient(#cbcbcb, #8e8e8e); }
-  .footer ul {
-    padding: 10px; }
+.main-sobre-ticomar {
+  width: 100vw; }
+
+.titulo-sobre-ticomar {
+  font-family: "Anta", sans-serif;
+  text-align: center;
+  margin-top: 20px; }
+
+.div-sobre-ticomar {
+  width: 800px;
+  margin: 20px; }
+
+.foto-instructor {
+  height: 790px;
+  margin: 10px; }
+
+.mision {
+  margin: 20px; }
+
+.iconos {
+  width: 5vw; }
+
+h2 {
+  font-family: "Anta", sans-serif; }

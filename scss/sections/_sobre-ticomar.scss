@@ -1,0 +1,33 @@
+.main-sobre-ticomar {
+    width: 100vw;
+    @extend .flex-center
+}
+
+.titulo-sobre-ticomar {
+    font-family: $fuente-titulos;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div-sobre-ticomar {
+    width: 800px;
+    margin: 20px;
+    @extend .flex-center-row
+}
+
+.foto-instructor {
+    height: 790px;
+    margin: 10px;
+}
+
+.mision{
+    margin: 20px;
+}
+
+.iconos {
+    width: 5vw;
+}
+
+h2 {
+    font-family: $fuente-titulos;
+}
