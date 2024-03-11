@@ -1,0 +1,16 @@
+.section-teorico {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    .señales {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 10px;
+        padding: 8px;
+    }
+}

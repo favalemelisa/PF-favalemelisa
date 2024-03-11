@@ -3,7 +3,7 @@
     @extend .flex-center
 }
 
-.titulo-sobre-ticomar {
+.titulo{
     font-family: $fuente-titulos;
     text-align: center;
     margin-top: 20px;
@@ -30,4 +30,5 @@
 
 h2 {
     font-family: $fuente-titulos;
+    font-size: 25px;
 }

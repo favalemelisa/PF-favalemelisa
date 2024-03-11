@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 * {
@@ -6,7 +7,7 @@
   box-sizing: border-box;
   font-family: sans-serif; }
 
-.flex-center, .article-index, .main-sobre-ticomar {
+.flex-center, .article-index, .main-sobre-ticomar, .main-contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +15,7 @@
   text-align: center;
   padding: 10px; }
 
-.flex-center-row, .div-sobre-ticomar {
+.flex-center-row, .footer, .div-sobre-ticomar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,9 +54,13 @@
         background-color: #8e8e8e; }
 
 .footer {
+  justify-content: space-between;
   background-image: linear-gradient(#cbcbcb, #8e8e8e); }
   .footer ul {
-    padding: 10px; }
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    text-decoration: none; }
 
 .main {
   display: flex;
@@ -105,7 +110,7 @@
 .main-sobre-ticomar {
   width: 100vw; }
 
-.titulo-sobre-ticomar {
+.titulo {
   font-family: "Anta", sans-serif;
   text-align: center;
   margin-top: 20px; }
@@ -125,4 +130,39 @@
   width: 5vw; }
 
 h2 {
-  font-family: "Anta", sans-serif; }
+  font-family: "Anta", sans-serif;
+  font-size: 25px; }
+
+.section-teorico {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center; }
+  .section-teorico .señales {
+    display: flex;
+    flex-wrap: wrap; }
+  .section-teorico .card {
+    margin: 10px;
+    padding: 8px; }
+
+.titulo {
+  font-family: "Anta", sans-serif;
+  font-size: 30px; }
+
+.section-contacto {
+  width: 35vw; }
+
+.div-form-contacto {
+  display: flex;
+  flex-direction: column; }
+
+label {
+  margin: 10px; }
+
+.submit {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.mapa {
+  width: 35vw;
+  margin-top: 20px; }
