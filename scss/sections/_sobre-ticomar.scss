@@ -10,17 +10,18 @@
 }
 
 .div-sobre-ticomar {
-    width: 800px;
+    width: 70vw;
     margin: 20px;
     @extend .flex-center-row
 }
 
 .foto-instructor {
-    height: 790px;
+    width: 30vw;
     margin: 10px;
 }
 
 .mision{
+    width: 70vw;
     margin: 20px;
 }
 
@@ -31,4 +32,21 @@
 h2 {
     font-family: $fuente-titulos;
     font-size: 25px;
+}
+
+// MEDIA QUERY PARA MOBILE
+
+@media (max-width: 800px) {
+    .div-sobre-ticomar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .foto-instructor {
+            width: 85vw;
+        }
+        .mision {
+            width: 85vw;
+        }
+    }
 }
