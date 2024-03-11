@@ -1,0 +1,60 @@
+.main-clases {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+
+.grilla-clases {
+    margin: 20px;
+    max-width: 760px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "sobre-las-clases alumnos alumnos"
+        "sobre-las-clases promociones promociones";
+}
+
+.sobre-las-clases {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 22vw;
+    grid-area: sobre-las-clases;
+
+    h2 p {
+        padding: 10px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.alumnos {
+    margin-top: 20px;
+    grid-area: alumnos;
+    width: 25vw;
+}
+
+.promociones {
+    margin-top: 50px;
+    grid-area: promociones;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: normal;
+
+    img {
+        max-width: 100%;
+        max-height: 150px;
+        object-fit: cover;
+    }
+}
