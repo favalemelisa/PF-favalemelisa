@@ -14,3 +14,17 @@
         padding: 8px;
     }
 }
+
+@media (max-width: 800px) {
+    .section-teorico{
+        align-content: center;
+    }
+    .señales{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        width: 80vw;
+    }
+    }

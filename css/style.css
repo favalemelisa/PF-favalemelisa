@@ -104,8 +104,19 @@
 .article-index {
   background-color: rgba(221, 243, 187, 0.771);
   border: solid black 2px;
+  margin-top: 20px;
   max-width: 30vw;
   box-shadow: 0px 4px 8px #cbcbcb; }
+
+@media (max-width: 800px) {
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    .beneficios .article-index {
+      margin-top: 20px; }
+      .beneficios .article-index h2 {
+        font-size: 20px; } }
 
 .main-sobre-ticomar {
   width: 100vw; }
@@ -177,8 +188,7 @@ h2 {
 
 .alumnos {
   margin-top: 20px;
-  grid-area: alumnos;
-  width: 25vw; }
+  grid-area: alumnos; }
 
 .promociones {
   margin-top: 50px;
@@ -210,10 +220,9 @@ h2 {
     margin: 10px;
     width: 90vw; }
   .promociones {
-    width: 100vw; }
+    margin: auto; }
     .promociones img {
-      max-width: 100%;
-      max-height: 120px; } }
+      max-width: 40%; } }
 
 .section-teorico {
   display: flex;
@@ -227,6 +236,16 @@ h2 {
     margin: 10px;
     padding: 8px; }
 
+@media (max-width: 800px) {
+  .section-teorico {
+    align-content: center; }
+  .señales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .card {
+    width: 80vw; } }
+
 .main-contacto .titulo {
   font-family: "Anta", sans-serif;
   font-size: 30px; }
@@ -237,8 +256,14 @@ h2 {
 .div-form-contacto {
   display: flex;
   flex-direction: column; }
+  .div-form-contacto input {
+    border-radius: 9px; }
+    .div-form-contacto input:hover {
+      background-color: #e5e5e5; }
   .div-form-contacto label {
     margin: 10px; }
+  .div-form-contacto .consulta {
+    height: 80px; }
   .div-form-contacto .submit {
     margin-top: 20px;
     margin-bottom: 10px; }
