@@ -47,7 +47,13 @@
 }
 
 .article-index {
-    background-color: rgba(221, 243, 187, 0.771);
+    background-color: rgb(235, 230, 230);
+    &:hover{
+        background-color: rgb(136, 202, 145);
+        color: white;
+        border: solid black 2px;
+
+    }
     border: solid black 2px;
     margin-top: 20px;
     max-width: 30vw;

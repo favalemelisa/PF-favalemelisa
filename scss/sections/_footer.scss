@@ -1,12 +1,15 @@
 .footer {
     @extend .flex-center-row;
     justify-content: space-between;
-    background-image: linear-gradient($grisclaro , $grisoscuro);
+    background-image: linear-gradient($grisclaro, $grisoscuro);
 
     ul {
         padding: 10px;
         list-style: none;
         text-align: left;
         text-decoration: none;
+    }
+    a{
+        color: inherit;
     }
 }
